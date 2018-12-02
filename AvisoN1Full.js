@@ -595,13 +595,13 @@ function main() {
                 title: "MEUS QC'S"
             });
         }
-        /*if (contQcs !== 0) {
+        if (contQcs !== 0) {
             GM_notification({
                 text: "VOLTOOOU " + qcs,
                 timeout: tempoVidaNotif,
                 title: "VOLTOOOOOU"
             });
-        }*/
+        }
         console.log("Total: " + tabela.childNodes.length + " defeitos");
     } catch (err) {
         var page_title = document.getElementsByClassName("page_title");
