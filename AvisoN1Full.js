@@ -494,7 +494,7 @@ function main() {
 
             }
             if (slaData >= 30 && (nome.data === "QA N1" || nome.data === "QA Gestão Ambientes" || status.data === "Open") && slaArray[1] === "Minute(s)" && opcionalCores === "yes") {
-                slaRef.style = "background-color:tomato; color: black";
+                slaRef.style = "background-color:tomato; color: white,font-weight: bold";
 
             }
 
