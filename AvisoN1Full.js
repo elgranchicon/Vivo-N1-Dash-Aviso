@@ -465,7 +465,7 @@ function main() {
                     linha.style = backgroundDefAberto + ";" + fonteDefAberto;
                     idRef.style = fonteDefAberto;
                     link.style = backgroundDefAberto + ";" + fonteDefAberto;
-                    //slaRef.style = "color:black";
+                    slaRef.style = "color:white";
                 }
             }
             if (nome.data === "Compasso N1 ") {
